@@ -6,8 +6,10 @@ public class Task04 {
         int b = 5;
         int c;
         c = a;
-        for (b = 2; b <= 5; b++)
+        // TODO use always { } code is more clear
+        for (b = 2; b <= 5; b++){
             a += c;
+        }
         System.out.println(a);
     }
 }
